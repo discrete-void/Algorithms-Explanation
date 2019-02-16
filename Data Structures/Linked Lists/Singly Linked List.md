@@ -9,7 +9,7 @@ Singly Linked List is a linear and connected data structure made of Nodes. Each 
 
 ### Drawbacks
 
-- Elements can be accessed sequentially not dynamically compared to an array
+- Elements can be accessed sequentially not randomly compared to an array
 - Extra memory allocation needs to be done for pointers which connects elements in a linked list
 
 ### Time Complexity
@@ -25,26 +25,23 @@ Singly Linked List is a linear and connected data structure made of Nodes. Each 
 
 ```.java
 class LinkedList {
-    
     Node head;      // Pointer to the first element
-	Node tail;      // Optional. Points to the last element
+    Node tail;      // Optional. Points to the last element
 
-	int length;     // Optional
+    int length;     // Optional
 
     class Node {
-        
         int data;   // Node data. Can be int, string, float, templates, etc
         Node next;  // Pointer to the next node on the list
-
     }
 }
  ```
 
 ## Code Implementation Links
 
-- [Java](https://github.com/TheAlgorithms/Java/blob/master/data_structures/Lists/SinglyLinkedList.java)
-- [C++](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/Linked%20List.cpp)
-- [Python](https://github.com/TheAlgorithms/Python/blob/master/data_structures/LinkedList/singly_LinkedList.py)
+- [Java](https://github.com/TheAlgorithms/Java/blob/master/DataStructures/Lists/SinglyLinkedList.java)
+- [C++](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/Data%20Structure/Linked%20List.cpp)
+- [Python](https://github.com/TheAlgorithms/Python/blob/master/data_structures/linked_list/singly_linked_list.py)
 
 ## Video Explanation
 
